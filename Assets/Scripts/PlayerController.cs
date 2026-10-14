@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [Tooltip("Set the speed of the player movement")]
     public float moveSpeed = 5f;
+    public float sprintSpeed = 10f;
     public float jumpHeight = 1.5f;
     public float gravity = -9.8f;
     public float rotationSmoothTime = 0.1f;
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
     Vector2 _moveInput;
     bool _isGrounded;
     bool _isJumping;
+    bool _sprintHeld;
     float _jumpCooldown = 0f;
     bool _jumpPressed;
     float _rotationVelocity;
@@ -60,6 +62,11 @@ public class PlayerController : MonoBehaviour
             _jumpPressed = true;
         }
     }
+
+    public void OnSprint(InputValue value)
+    {
+        _sprintHeld = !_sprintHeld;
+    }
     void Update()
     {
         HandleGroundCheck();
@@ -75,7 +82,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        float speed = moveSpeed;
+        float speed = _sprintHeld ? sprintSpeed : moveSpeed;
 
         //Camera related directional rotation
         float targetAngle = Mathf.Atan2(_moveInput.x, _moveInput.y) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
