@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("References")]
     public Transform cameraTransform;
+    public Animator animator;
 
 
 
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
     /// <param name="value">Input value passed form the input system</param>
     public void OnMove(InputValue value)
     {
-        Debug.Log(value.Get<Vector2>());
+        //Debug.Log(value.Get<Vector2>());
         _moveInput = value.Get<Vector2>();
     }
     public void OnJump(InputValue value)
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
         HandleMovement();
         HandleJump();
         ApplyGravity();
+        UpdateAnimation();
     }
 
     void HandleMovement()
@@ -135,6 +137,14 @@ public class PlayerController : MonoBehaviour
         _characterController.Move(new Vector3(0, _velocity.y, 0) * Time.deltaTime);
     }
 
+    void UpdateAnimation()
+    {
+        if (animator == null) return;
+        float inputMagnitude = _moveInput.magnitude;
+        animator.SetFloat("Speed", inputMagnitude);
+        animator.SetBool("Jump", !_isGrounded);
+    }
+
     private void OnDrawGizmos()
     {
         if (groundCheck == null)
@@ -144,4 +154,5 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = _isGrounded ? Color.green : Color.red;
         Gizmos.DrawWireSphere(groundCheck.position, groundDistance);
     }
+
 }
