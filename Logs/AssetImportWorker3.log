@@ -4,8 +4,8 @@ OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32188 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-14T15:45:35Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517" at "2026-10-14T15:45:35.5415925Z"
+Date: 2026-10-21T17:05:54Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517" at "2026-10-21T17:05:54.5436303Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.4.12f1\Editor\Unity.exe
@@ -13,13 +13,13 @@ C:\Program Files\Unity 6000.4.12f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker3
 -projectPath
 C:/Users/008029517/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2/Unity2
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker3.log
 -srvPort
-54143
+61822
 -licensingIpc
 LicenseClient-008029517
 -force-d3d12
@@ -68,16 +68,16 @@ C:/Users/008029517/OneDrive - New England Institute of Technology/Desktop/myproj
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [34096]  Target information:
+Player connection [19836]  Target information:
 
-Player connection [34096]  * "[IP] 10.72.45.40 [Port] 0 [Flags] 2 [Guid] 2421381491 [EditorId] 2421381491 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19836]  * "[IP] 10.72.45.40 [Port] 0 [Flags] 2 [Guid] 1139502724 [EditorId] 1139502724 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34096]  * "[IP] 192.168.77.1 [Port] 0 [Flags] 2 [Guid] 2421381491 [EditorId] 2421381491 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19836]  * "[IP] 192.168.77.1 [Port] 0 [Flags] 2 [Guid] 1139502724 [EditorId] 1139502724 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34096]  * "[IP] 192.168.140.1 [Port] 0 [Flags] 2 [Guid] 2421381491 [EditorId] 2421381491 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19836]  * "[IP] 192.168.140.1 [Port] 0 [Flags] 2 [Guid] 1139502724 [EditorId] 1139502724 [Version] 1048832 [Id] WindowsEditor(7,N209C3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34096] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34096] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19836] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.82 ms, found 4 plugins.
 Initialize engine version: 6000.4.12f1 (3ca267ce8005)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/008029517/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2/Unity2/Assets
@@ -107,7 +107,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -118,29 +118,29 @@ Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-008029517"
 [Licensing::IpcConnector] LicenseClient-008029517 channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517-6000.4.12" at "2026-10-14T15:45:38.6727931Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18976, path: "C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517-6000.4.12" at "2026-10-21T17:05:56.805294Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4436, path: "C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              81ebc7e26d264f56a9bf812de2839356
-  Correlation Id:          2ea9d9774d2ac2ce78204dd81c812dbe
-  External correlation Id: 2669269942066095654
-  Machine Id:              G/tVk+3fo4/IovjBUZND/mDuEYI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-008029517-6000.4.12" (connect: 0.01s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517-6000.4.12-notifications" at "2026-10-14T15:45:38.693579Z"
-[Licensing::Module] Licensing Background thread has ended after 3.15s
-[Licensing::Module] Licensing is initialized (took 1.10s).
+  Session Id:              84f0c6faaa5e4fe0bc2ae851cfa50b6d
+  Correlation Id:          831754419a975b95e8021021bd933da4
+  External correlation Id: 7846716562416639189
+  Machine Id:              AXygG31SgWrDi2je11An3cdf+2c=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-008029517-6000.4.12" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008029517-6000.4.12-notifications" at "2026-10-21T17:05:56.8158929Z"
+[Licensing::Module] Licensing Background thread has ended after 2.27s
+[Licensing::Module] Licensing is initialized (took 0.65s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 2474595837920-UnityPersXXXX
+  Id: F4-R5NR-8Y9Q-Z4XE-85WT-XXXX
   Product: Unity Personal
-  Type: Assigned
+  Type: ULF
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 1.112790 seconds.
+Registered in 0.661366 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
@@ -152,23 +152,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.419 seconds
-Domain Reload Profiling: 2057ms
-	BeginReloadAssembly (161ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (1224ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (160ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (176ms)
-	FinalizeReload (419ms)
+- Finished resetting the current domain, in  0.285 seconds
+Domain Reload Profiling: 1352ms
+	BeginReloadAssembly (158ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (720ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (154ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+	FinalizeReload (285ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (62ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
@@ -220,7 +220,7 @@ DirectoryNotFoundException: Could not find a part of the path "C:\Users\00802951
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -234,72 +234,64 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-My project
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.718 seconds
-Domain Reload Profiling: 1563ms
-	BeginReloadAssembly (228ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (352ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (150ms)
-			BuildScriptInfoCaches (61ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (718ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1417ms
+	BeginReloadAssembly (171ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (310ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (680ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (290ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (7ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7282 unused Assets / (5.5 MB). Loaded Objects now: 8107.
-Memory consumption went from 165.8 MB to 160.3 MB.
-Total: 9.863900 ms (FindLiveObjects: 1.608800 ms CreateObjectMapping: 0.685800 ms MarkObjects: 3.696200 ms  DeleteObjects: 3.870900 ms)
+Unloading 7286 unused Assets / (6.0 MB). Loaded Objects now: 8127.
+Memory consumption went from 169.3 MB to 163.3 MB.
+Total: 7.920200 ms (FindLiveObjects: 0.747400 ms CreateObjectMapping: 0.656100 ms MarkObjects: 3.712200 ms  DeleteObjects: 2.801600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 553375.431859 seconds.
-  path: Assets/Prefabs/CubePlatform.prefab
-  importAddress: Guid(71384a5494e7d5f4d834edd50a86c97d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/CubePlatform.prefab using Guid(71384a5494e7d5f4d834edd50a86c97d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e94821d9cad45899bde6c8f7bc33cf6') in 0.0961304 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f06995d2b8d10a98baa8d48c678336c9 DependenciesID=48e01d5e1fca50d5b682918084ab5cd5 StaticDependenciesID=3b97f9370010b1c5558ad60cabb0218a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  importAddress: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '89ef94219df42d60c45caad32979c534') in 0.0047223 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3a22e302426d12121cc73d583f076a3 DependenciesID=06e98d8b3aafff074f9a1360a0f89551 StaticDependenciesID=392abe554bef8e6ff3f628edabf57d70 
+  Time since last request: 519824.614650 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  importAddress: Guid(3d3decaa898c45f41b381a7bcd6bd578) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3d3decaa898c45f41b381a7bcd6bd578) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc0f8f6958a6557f087bbcf6defaf080') in 0.0553015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c24644ce769c9e2189b65ed17f781a89 DependenciesID=ec7deee175a3cc2790b0a912b2a00156 StaticDependenciesID=14386bb84f73b703eccafe983650b341 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  importAddress: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d45fcb8edc13becc26d4fe39938cc45') in 0.0083041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11d52885f61264330432473c494ddc15 DependenciesID=a6a60b5d6e18502ed1765cca94f3d89e StaticDependenciesID=08110fc3c1147dc7673720d6987be07c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Animations/Ch09_nonPBR@Slow Run (1).fbx
+  importAddress: Guid(ca43ec65fb3ec0e43864fef03b3b2042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Ch09_nonPBR@Slow Run (1).fbx using Guid(ca43ec65fb3ec0e43864fef03b3b2042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1475d8cec4efaa449146394218727a1a') in 0.0627696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4272f5fb6e227790f091d80b3f25325e DependenciesID=8a732aa1dabf8fe9f4f97f157711a704 StaticDependenciesID=75ea4fa415c6fa4217dc674388776193 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  importAddress: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24ba4f25651d952fdccaa99b17147d9e') in 0.0273398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61dcc682824575cce2213c2d9743099f DependenciesID=1888bf527412200544e983db08b60ba6 StaticDependenciesID=ad76071ef1d64f1b986e99f9d51a3f3a 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d0ad21213bd19fb30dd5622fa42edad') in 0.0091696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab11f2d1093fb28aea813fda8daa5f79 DependenciesID=082432ccc2452dec51dcde0f6dfdc43b StaticDependenciesID=2f18047139975b1d350dfc633910d104 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
@@ -350,7 +342,7 @@ DirectoryNotFoundException: Could not find a part of the path "C:\Users\00802951
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -368,33 +360,128 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [MODES] ModeService[none].LoadModes
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1431ms
-	BeginReloadAssembly (222ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (378ms)
-		LoadAssemblies (300ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (15ms)
-			BuildScriptInfoCaches (152ms)
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (288ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (13ms)
+			BuildScriptInfoCaches (142ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (707ms)
+	FinalizeReload (671ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7278 unused Assets / (6.2 MB). Loaded Objects now: 8126.
-Memory consumption went from 171.4 MB to 165.2 MB.
-Total: 10.028900 ms (FindLiveObjects: 0.750300 ms CreateObjectMapping: 0.870400 ms MarkObjects: 4.620500 ms  DeleteObjects: 3.786200 ms)
+Unloading 7283 unused Assets / (5.5 MB). Loaded Objects now: 8145.
+Memory consumption went from 175.0 MB to 169.5 MB.
+Total: 9.283500 ms (FindLiveObjects: 0.975400 ms CreateObjectMapping: 0.631400 ms MarkObjects: 4.512500 ms  DeleteObjects: 3.162600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\008029517\OneDrive - New England Institute of Technology\Desktop\myprojects\Unity2\Unity2\Library\PackageCache\com.unity.collections@5b6ebd78ccc0\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <f713e1c3c5f545ce9b1df47230f4f853>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <f713e1c3c5f545ce9b1df47230f4f853>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00043] in <b2eb3a993ec44b92abc19c05010e7fa0>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00006] in <b2eb3a993ec44b92abc19c05010e7fa0>:0 
+
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (282ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (13ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (666ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.31 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7282 unused Assets / (5.8 MB). Loaded Objects now: 8148.
+Memory consumption went from 178.6 MB to 172.8 MB.
+Total: 9.678200 ms (FindLiveObjects: 0.918400 ms CreateObjectMapping: 0.833800 ms MarkObjects: 4.364200 ms  DeleteObjects: 3.560300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
