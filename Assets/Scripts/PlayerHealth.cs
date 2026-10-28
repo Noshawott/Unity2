@@ -27,6 +27,8 @@ public class PlayerHealth : MonoBehaviour
             {
                 Debug.Log("Player is dead :(");
                 activateRagdoll();
+                GameManager.Instance._gameOver = true;
+                GameManager.Instance.RestartGame();
             }
         }
     }

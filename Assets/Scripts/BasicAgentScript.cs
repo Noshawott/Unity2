@@ -24,7 +24,7 @@ public class BasicAgentScript : MonoBehaviour
         {
             agent.SetDestination(playerTarget.position);
         }
-        if (!isAttacking && Vector3.Distance(transform.position, playerTarget.position) < 2.3)
+        if (!isAttacking && Vector3.Distance(transform.position, playerTarget.position) < 2.3 && GameManager.Instance._gameOver == false)
         {
             isAttacking = true;
             StartCoroutine(Attack());

@@ -96,6 +96,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;   //Og moveDir new Vector3(_moveInput.x, 0f, _moveInput.y);
         _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
+        //Time.timeScale = _moveInput.sqrMagnitude;
     }
 
     
